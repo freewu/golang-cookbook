@@ -3,15 +3,12 @@
 <!-- ## 封面
 <img src="./images/book cover.png" /> -->
 
-## 标准库
-- [builtin](./standard/builtin.md "builtin") builtin Package builtin provides documentation for Go's predeclared identifiers.      
-- go 
-    - [version](./standard/go-version.md "go/version")   
-   
+## 标准库 
 - archive	
     - tar Package tar implements access to tar archives.
     - zip Package zip provides support for reading and writing ZIP archives.
 - bufio Package bufio implements buffered I/O. It wraps an io.Reader or io.Writer object, creating another object (Reader or Writer) that also implements the interface but provides buffering and some help for textual I/O.
+- [builtin](./standard/builtin.md "builtin") 系统内置方法  
 - bytes Package bytes implements functions for the manipulation of byte slices.
 - cmp Package cmp provides types and functions related to comparing ordered values.
 - compress
@@ -97,7 +94,7 @@
     - scanner Package scanner implements a scanner for Go source text.
     - token Package token defines constants representing the lexical tokens of the Go programming language and basic operations on tokens (printing, predicates).
     - types Package types declares the data types and implements the algorithms for type-checking of Go packages.
-    - version Package version provides operations on [Go versions] in [Go toolchain name syntax]: strings like "go1.20", "go1.21.0", "go1.22rc2", and "go1.23.4-custom".
+    - [version](./standard/go-version.md "go/version")   go 版本相关   
 - hash Package hash provides interfaces for hash functions.
     - adler32 Package adler32 implements the Adler-32 checksum.
     - crc32 Package crc32 implements the 32-bit cyclic redundancy check, or CRC-32, checksum.
