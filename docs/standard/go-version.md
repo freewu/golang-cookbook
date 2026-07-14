@@ -29,3 +29,6 @@ func main() {
     fmt.Println(version.Compare("go1.20", "go1.21")) // -1
 }
 ```
+
+## 参考资料
+- [go/version](https://pkg.go.dev/go/version)

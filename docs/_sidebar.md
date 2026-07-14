@@ -7,8 +7,10 @@
 
 - [标准库](./README.md#标准库)
     * [builtin](./standard/builtin.md "builtin")   
-    * [go/version](./standard/go-version.md "go/version")   
+    * go 
+        * [version](./standard/go-version.md "go/version")   
 
 
 - [第三方库](./README.md#第三方库)
-    * [gin](./third-part/gin.md "gin")
+    - web 
+        * [gin](./third-part/gin.md "gin")

@@ -40,3 +40,48 @@ func main() {
     fmt.Println(version.Compare("go1.20", "go1.21")) // -1
 }
 ```
+
+## Types 类型
+```
+type ComplexType
+type FloatType
+type IntegerType
+type Type
+type Type1
+type TypeOrExpr
+type any
+type bool
+type byte
+type comparable
+type complex64
+type complex128
+type error
+type float32
+type float64
+type int
+type int8
+type int16
+type int32
+type int64
+type rune
+type string
+type uint
+type uint8
+type uint16
+type uint32
+type uint64
+type uintptr
+```
+示例代码:
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println(append([]int{1, 2, 3}, 4, 5)) // [1 2 3 4 5]
+}
+```
+
+## 参考资料
+- [builtin](https://pkg.go.dev/builtin)

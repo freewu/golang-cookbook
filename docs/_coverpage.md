@@ -2,8 +2,8 @@
 
 # Golang Cookbook
 
-[计划](./README.md#计划  "Golang Cookbook 计划")
-[参考资料](./README.md#参考资料  "Golang Cookbook 参考资料")
+[标准库](./README.md#标准库  "标准库")
+[第三方库](./README.md#第三方库  "第三方库")
 [GitHub](https://github.com/freewu/golang-cookbook) 
 
 <!-- 背景色 -->
