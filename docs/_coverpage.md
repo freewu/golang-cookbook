@@ -1,11 +1,10 @@
 <!-- _coverpage.md -->
 
-# Chrome Extension Cookbook <span>V3</span>
+# Golang Cookbook
 
-[GitHub](https://github.com/freewu/chrome-extension-cookbook-v3)
-[Get Started](./demo.get-start.md "Hello World 扩展")
-
+[计划](./README.md#计划  "Golang Cookbook 计划")
+[参考资料](./README.md#参考资料  "Golang Cookbook 参考资料")
+[GitHub](https://github.com/freewu/golang-cookbook) 
 
 <!-- 背景色 -->
-
 ![color](#f0f0f0)
