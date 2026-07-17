@@ -8,7 +8,7 @@
     - tar Package tar implements access to tar archives.
     - zip Package zip provides support for reading and writing ZIP archives.
 - bufio Package bufio implements buffered I/O. It wraps an io.Reader or io.Writer object, creating another object (Reader or Writer) that also implements the interface but provides buffering and some help for textual I/O.
-- [builtin](./standard/builtin.md "builtin") 系统内置方法  
+- [builtin](./standard/builtin.md "系统内置方法") 系统内置方法   
 - bytes Package bytes implements functions for the manipulation of byte slices.
 - cmp Package cmp provides types and functions related to comparing ordered values.
 - compress
@@ -94,7 +94,7 @@
     - scanner Package scanner implements a scanner for Go source text.
     - token Package token defines constants representing the lexical tokens of the Go programming language and basic operations on tokens (printing, predicates).
     - types Package types declares the data types and implements the algorithms for type-checking of Go packages.
-    - [version](./standard/go-version.md "go/version")   go 版本相关   
+    - [version](./standard/go-version.md "go 版本相关") go 版本相关   
 - hash Package hash provides interfaces for hash functions.
     - adler32 Package adler32 implements the Adler-32 checksum.
     - crc32 Package crc32 implements the 32-bit cyclic redundancy check, or CRC-32, checksum.
@@ -149,7 +149,7 @@
     - exec Package exec runs external commands.
     - signal Package signal implements access to incoming signals.
     - user Package user allows user account lookups by name or id.
-- path Package path implements utility routines for manipulating slash-separated paths.
+- [path](./standard/path.md "目录路径相关")  目录路径相关
     - filepath Package filepath implements utility routines for manipulating filename paths in a way compatible with the target operating system-defined file paths.
 - plugin Package plugin implements loading and symbol resolution of Go plugins.
 - reflect Package reflect implements run-time reflection, allowing a program to manipulate objects with arbitrary types.

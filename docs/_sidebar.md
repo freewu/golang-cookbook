@@ -6,9 +6,10 @@
 -->
 
 - [标准库](./README.md#标准库)
-    * [builtin](./standard/builtin.md "builtin")   
+    * [builtin](./standard/builtin.md "系统内置方法")   
     * go 
-        * [version](./standard/go-version.md "go/version")   
+        * [version](./standard/go-version.md "go 版本相关")   
+    * [path](./standard/path.md "目录路径相关")
 
 
 - [第三方库](./README.md#第三方库)
