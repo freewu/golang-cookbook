@@ -5,9 +5,9 @@
 
 ## 标准库 
 - archive	
-    - tar Package tar implements access to tar archives.
-    - zip Package zip provides support for reading and writing ZIP archives.
-- bufio Package bufio implements buffered I/O. It wraps an io.Reader or io.Writer object, creating another object (Reader or Writer) that also implements the interface but provides buffering and some help for textual I/O.
+    - [tar](./standard/archive-tar.md "Tar 包操作相关") Tar 包操作相关    
+    - [zip](./standard/archive-zip.md "Zip 包操作相关") Zip 包操作相关   
+- [bufio](./standard/bufio.md "bufio I/O 相关")  buffered I/O 相关
 - [builtin](./standard/builtin.md "系统内置方法") 系统内置方法   
 - bytes Package bytes implements functions for the manipulation of byte slices.
 - cmp Package cmp provides types and functions related to comparing ordered values.

@@ -565,8 +565,6 @@ func main() {
 type WalkFunc func(path string, info fs.FileInfo, err error) error
 ```
 示例代码:
-```go
-<示例代码>
 ```
 查看 func Walk 的示例代码
 ```
