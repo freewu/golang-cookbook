@@ -149,8 +149,8 @@
     - exec Package exec runs external commands.
     - signal Package signal implements access to incoming signals.
     - user Package user allows user account lookups by name or id.
-- [path](./standard/path.md "目录路径相关")  目录路径相关
-    - filepath Package filepath implements utility routines for manipulating filename paths in a way compatible with the target operating system-defined file paths.
+- [path](./standard/path.md "目录路径相关") 目录路径相关
+    - [filepath](./standard/filepath.md "文件路径相关") 文件路径相关   
 - plugin Package plugin implements loading and symbol resolution of Go plugins.
 - reflect Package reflect implements run-time reflection, allowing a program to manipulate objects with arbitrary types.
 - regexp Package regexp implements regular expression search.
