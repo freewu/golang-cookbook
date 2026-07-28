@@ -10,7 +10,7 @@
 - [bufio](./standard/bufio.md "bufio I/O 相关")  buffered I/O 相关
 - [builtin](./standard/builtin.md "系统内置方法") 系统内置方法   
 - [bytes](./standard/bytes.md "字节切片操作相关") 字节切片操作相关   
-- cmp Package cmp provides types and functions related to comparing ordered values.
+- [cmp](./standard/cmp.md "比较操作相关") 比较操作相关   
 - compress
     - bzip2 Package bzip2 implements bzip2 decompression.
     - flate Package flate implements the DEFLATE compressed data format, described in RFC 1951.
