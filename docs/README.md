@@ -9,7 +9,7 @@
     - [zip](./standard/archive-zip.md "Zip 包操作相关") Zip 包操作相关   
 - [bufio](./standard/bufio.md "bufio I/O 相关")  buffered I/O 相关
 - [builtin](./standard/builtin.md "系统内置方法") 系统内置方法   
-- bytes Package bytes implements functions for the manipulation of byte slices.
+- [bytes](./standard/bytes.md "字节切片操作相关") 字节切片操作相关   
 - cmp Package cmp provides types and functions related to comparing ordered values.
 - compress
     - bzip2 Package bzip2 implements bzip2 decompression.

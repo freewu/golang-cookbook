@@ -11,6 +11,7 @@
         - [zip](./standard/archive-zip.md "Zip 包操作相关")   
     - [bufio](./standard/bufio.md "bufio I/O 相关")   
     - [builtin](./standard/builtin.md "系统内置方法")   
+    - [bytes](./standard/bytes.md "字节切片操作相关")   
     - go 
         - [version](./standard/go-version.md "go 版本相关")   
     - [path](./standard/path.md "目录路径相关")
