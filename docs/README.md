@@ -12,74 +12,68 @@
 - [bytes](./standard/bytes.md "字节切片操作相关") 字节切片操作相关   
 - [cmp](./standard/cmp.md "比较操作相关") 比较操作相关   
 - compress
-    - bzip2 Package bzip2 implements bzip2 decompression.
-    - flate Package flate implements the DEFLATE compressed data format, described in RFC 1951.
-    - gzip Package gzip implements reading and writing of gzip format compressed files, as specified in RFC 1952.
-    - lzw Package lzw implements the Lempel-Ziv-Welch compressed data format, described in T. A. Welch, “A Technique for High-Performance Data Compression”, Computer, 17(6) (June 1984), pp 8-19.
-    - zlib Package zlib implements reading and writing of zlib format compressed data, as specified in RFC 1950.
+    - [bzip2](./standard/compress-bzip2.md "bzip2 压缩相关") bzip2 压缩相关
+    - [flate](./standard/compress-flate.md "flate 压缩相关") flate 压缩相关
+    - [gzip](./standard/compress-gzip.md "gzip 压缩相关") gzip 压缩相关
+    - [lzw](./standard/compress-lzw.md "lzw 压缩相关") lzw 压缩相关
+    - [zlib](./standard/compress-zlib.md "zlib 压缩相关") zlib 压缩相关
 - container
-    - heap Package heap provides heap operations for any type that implements heap.Interface.
-    - list Package list implements a doubly linked list.
-    - ring Package ring implements operations on circular lists.
-- context Package context defines the Context type, which carries deadlines, cancellation signals, and other request-scoped values across API boundaries and between processes.
-- crypto Package crypto collects common cryptographic constants.
-    - aes Package aes implements AES encryption (formerly Rijndael), as defined in U.S. Federal Information Processing Standards Publication 197.
-    - cipher Package cipher implements standard block cipher modes that can be wrapped around low-level block cipher implementations.
-    - des Package des implements the Data Encryption Standard (DES) and the Triple Data Encryption Algorithm (TDEA) as defined in U.S. Federal Information Processing Standards Publication 46-3.
-    - dsa Package dsa implements the Digital Signature Algorithm, as defined in FIPS 186-3.
-    - ecdh Package ecdh implements Elliptic Curve Diffie-Hellman over NIST curves and Curve25519.
-    - ecdsa Package ecdsa implements the Elliptic Curve Digital Signature Algorithm, as defined in [FIPS 186-5].
-    - ed25519 Package ed25519 implements the Ed25519 signature algorithm.
-    - elliptic Package elliptic implements the standard NIST P-224, P-256, P-384, and P-521 elliptic curves over prime fields.
-    - fips140 Package fips140 provides information about the FIPS 140-3 Go Cryptographic Module and FIPS 140-3 mode.
-    - hkdf Package hkdf implements the HMAC-based Extract-and-Expand Key Derivation Function (HKDF) as defined in RFC 5869.
-    - hmac Package hmac implements the Keyed-Hash Message Authentication Code (HMAC) as defined in U.S. Federal Information Processing Standards Publication 198.
-    - hpke Package hpke implements Hybrid Public Key Encryption (HPKE) as defined in [RFC 9180].
-    - md5 Package md5 implements the MD5 hash algorithm as defined in RFC 1321.
-    - mlkem Package mlkem implements the quantum-resistant key encapsulation method ML-KEM (formerly known as Kyber), as specified in [NIST FIPS 203].
-    - mlkemtest Package mlkemtest provides testing functions for the ML-KEM algorithm.
-    - pbkdf2 Package pbkdf2 implements the key derivation function PBKDF2 as defined in RFC 8018 (PKCS #5 v2.1).
-    - rand Package rand implements a cryptographically secure random number generator.
-    - rc4 Package rc4 implements RC4 encryption, as defined in Bruce Schneier's Applied Cryptography.
-    - rsa Package rsa implements RSA encryption as specified in PKCS #1 and RFC 8017.
-    - sha1 Package sha1 implements the SHA-1 hash algorithm as defined in RFC 3174.
-    - sha256 Package sha256 implements the SHA224 and SHA256 hash algorithms as defined in FIPS 180-4.
-    - sha3 Package sha3 implements the SHA-3 hash algorithms and the SHAKE extendable output functions defined in FIPS 202.
-    - sha512 Package sha512 implements the SHA-384, SHA-512, SHA-512/224, and SHA-512/256 hash algorithms as defined in FIPS 180-4.
-    - subtle Package subtle implements functions that are often useful in cryptographic code but require careful thought to use correctly.
-    - tls Package tls partially implements TLS 1.2, as specified in RFC 5246, and TLS 1.3, as specified in RFC 8446.
-    - x509 Package x509 implements a subset of the X.509 standard.
-    - x509/pkix Package pkix contains shared, low level structures used for ASN.1 parsing and serialization of X.509 certificates, CRL and OCSP.
+    - [heap](./standard/container-heap.md "heap 堆相关") heap 堆相关
+    - [list](./standard/container-list.md "list 链表相关") list 链表相关
+    - [ring](./standard/container-ring.md "ring 环相关") ring 环相关
+- [crypto](./standard/crypto.md "crypto 常量相关") crypto 常量相关
+    - [aes](./standard/crypto-aes.md "aes 加密相关") aes 加密相关 
+    - [cipher](./standard/crypto-cipher.md "cipher 加密相关") cipher 加密相关 
+    - [des](./standard/crypto-des.md "des 加密相关") des 加密相关 
+    - [dsa](./standard/crypto-dsa.md "dsa 签名相关") dsa 签名相关 
+    - [ecdsa](./standard/crypto-ecdsa.md "ecdsa 签名相关") ecdsa 签名相关 
+    - [ed25519](./standard/crypto-ed25519.md "ed25519 签名相关") ed25519 签名相关 
+    - [elliptic](./standard/crypto-elliptic.md "elliptic 签名相关") elliptic 签名相关
+    - [fips140](./standard/crypto-fips140.md "fips 140-3 相关") fips 140-3 相关
+    - [hkdf](./standard/crypto-hkdf.md "hkdf 签名相关") hkdf 签名相关
+    - [hmac](./standard/crypto-hmac.md "hmac 签名相关") hmac 签名相关
+    - [hpke](./standard/crypto-hpke.md "hpke 签名相关") hpke 签名相关
+    - [md5](./standard/crypto-md5.md "md5 签名相关") md5 签名相关
+    - [mlkem](./standard/crypto-mlkem.md "mlkem 签名相关") mlkem 签名相关
+    - [mlkemtest](./standard/crypto-mlkemtest.md "mlkemtest 签名相关") mlkemtest 签名相关
+    - [pbkdf2](./standard/crypto-pbkdf2.md "pbkdf2 签名相关") pbkdf2 签名相关
+    - [rand](./standard/crypto-rand.md "rand 签名相关") rand 签名相关
+    - [rc4](./standard/crypto-rc4.md "rc4 签名相关") rc4 签名相关
+    - [rsa](./standard/crypto-rsa.md "rsa 签名相关") rsa RSA 签名相关
+    - [sha1](./standard/crypto-sha1.md "sha1 签名相关") sha1 签名相关
+    - [sha256](./standard/crypto-sha256.md "sha256 签名相关") sha256 签名相关
+    - [sha3](./standard/crypto-sha3.md "sha3 签名相关") sha3 签名相关
+    - [sha512](./standard/crypto-sha512.md "sha512 签名相关") sha512 签名相关
+    - [subtle](./standard/crypto-subtle.md "subtle 签名相关") subtle 签名相关
+    - [tls](./standard/crypto-tls.md "tls 签名相关") tls 签名相关
+    - [x509](./standard/crypto-x509.md "x509 签名相关") x509 签名相关
 - database
-    - sql Package sql provides a generic interface around SQL (or SQL-like) databases.
-    - sql/driver Package driver defines interfaces to be implemented by database drivers as used by package sql.
+    - [sql](./standard/database-sql.md "sql 数据库相关") sql 数据库相关
+    - [driver](./standard/database-driver.md "driver 数据库驱动相关") 数据库驱动相关
 - debug
-    - buildinfo Package buildinfo provides access to information embedded in a Go binary about how it was built.
-    - dwarf Package dwarf provides access to DWARF debugging information loaded from executable files, as defined in the DWARF 2.0 Standard at http://dwarfstd.org/doc/dwarf-2.0.0.pdf.
-    - elf Package elf implements access to ELF object files.
-    - gosym Package gosym implements access to the Go symbol and line number tables embedded in Go binaries generated by the gc compilers.-
-    - macho Package macho implements access to Mach-O object files.-
-    - pe Package pe implements access to PE (Microsoft Windows Portable Executable) files.
-    - plan9obj Package plan9obj implements access to Plan 9 a.out object files.
-- embed Package embed provides access to files embedded in the running Go program.
-- encoding Package encoding defines interfaces shared by other packages that convert data to and from byte-level and textual representations.
-    - ascii85 Package ascii85 implements the ascii85 data encoding as used in the btoa tool and Adobe's PostScript and PDF document formats.
-    - asn1 Package asn1 implements parsing of DER-encoded ASN.1 data structures, as defined in ITU-T Rec X.690.
-    - base32 Package base32 implements base32 encoding as specified by RFC 4648.
-    - base64 Package base64 implements base64 encoding as specified by RFC 4648.
-    - binary Package binary implements simple translation between numbers and byte sequences and encoding and decoding of varints.
-    - csv Package csv reads and writes comma-separated values (CSV) files.
-    - gob Package gob manages streams of gobs - binary values exchanged between an Encoder (transmitter) and a Decoder (receiver).
-    - hex Package hex implements hexadecimal encoding and decoding.
-    - json Package json implements encoding and decoding of JSON as defined in RFC 7159.
-    - json/jsontext Package jsontext implements syntactic processing of JSON as specified in RFC 4627, RFC 7159, RFC 7493, RFC 8259, and RFC 8785.
-    - json/v2 Package json implements semantic processing of JSON as specified in RFC 8259.
-    - pem Package pem implements the PEM data encoding, which originated in Privacy Enhanced Mail.
-    - xml Package xml implements a simple XML 1.0 parser that understands XML name spaces.
-- errors Package errors implements functions to manipulate errors.
-- expvar Package expvar provides a standardized interface to public variables, such as operation counters in servers.
-- flag Package flag implements command-line flag parsing.
-- fmt Package fmt implements formatted I/O with functions analogous to C's printf and scanf.
+    - [buildinfo](./standard/debug-buildinfo.md "buildinfo 调试信息相关") 调试信息相关
+    - [dwarf](./standard/debug-dwarf.md "dwarf 调试信息相关") DWARF 2.0 Standard at http://dwarfstd.org/doc/dwarf-2.0.0.pdf.
+    - [elf](./standard/debug-elf.md "elf 调试信息相关") elf 调试信息相关
+    - [gosym](./standard/debug-gosym.md "gosym 调试信息相关") Go symbol and line number tables embedded in Go binaries generated by the gc compilers.-
+    - [macho](./standard/debug-macho.md "macho 调试信息相关") 调试信息相关
+    - [plan9obj](./standard/debug-plan9obj.md "plan9obj 调试信息相关") 调试信息相关
+- [embed](./standard/embed.md "embed 嵌入相关") 嵌入信息相关 
+- [encoding](./standard/encoding.md "   编码相关") 编码相关
+    - [ascii85](./standard/encoding-ascii85.md "ascii85 编码相关") ascii85 编码相关
+    - [asn1](./standard/encoding-asn1.md "asn1 编码相关") asn1 编码相关
+    - [base32](./standard/encoding-base32.md "base32 编码相关") base32 编码相关
+    - [base64](./standard/encoding-base64.md "base64 编码相关") base64 编码相关
+    - [binary](./standard/encoding-binary.md "binary 编码相关") binary 编码相关
+    - [csv](./standard/encoding-csv.md "csv 编码相关") csv 编码相关
+    - [gob](./standard/encoding-gob.md "gob 编码相关") gob 编码相关
+    - [json](./standard/encoding-json.md "json 编码相关") json 编码相关
+    - [json/jsontext](./standard/encoding-json/jsontext.md "json/jsontext 编码相关") json/jsontext 编码相关
+    - [json/v2](./standard/encoding-json/v2.md "json/v2 编码相关") json/v2 编码相关
+    - [pem](./standard/encoding-pem.md "pem 编码相关") pem 编码相关
+- [errors](./standard/errors.md "errors 错误相关") 错误相关
+- [expvar](./standard/expvar.md "expvar 监控相关") expvar 相关
+- [flag](./standard/flag.md "flag 相关") flag 相关
+- [fmt](./standard/fmt.md "fmt 格式化字符串相关") fmt 相关
 - go
     - ast Package ast declares the types used to represent syntax trees for Go packages.
     - build Package build gathers information about Go packages.
@@ -168,9 +162,9 @@
     - archsimd Package archsimd provides access to architecture-specific SIMD operations.
 - slices Package slices defines various functions useful with slices of any type.
 - sort Package sort provides primitives for sorting slices and user-defined collections.
-- strconv Package strconv implements conversions to and from string representations of basic data types.
-- strings Package strings implements simple functions to manipulate UTF-8 encoded strings.
-- structs Package structs defines marker types that can be used as struct fields to modify the properties of a struct.
+- [strconv](./standard/strconv.md "字符串转换相关") 字符串转换相关
+- [strings](./standard/strings.md "字符串操作相关") 字符串操作相关
+- [structs](./standard/structs.md "结构体相关") 结构体相关
 - sync Package sync provides basic synchronization primitives such as mutual exclusion locks.
     - atomic Package atomic provides low-level atomic memory primitives useful for implementing synchronization algorithms.
 - syscall Package syscall contains an interface to the low-level operating system primitives.
@@ -187,14 +181,14 @@
     - tabwriter Package tabwriter implements a write filter (tabwriter.Writer) that translates tabbed columns in input into properly aligned text.
     - template Package template implements data-driven templates for generating textual output.
     - template/parse Package parse builds parse trees for templates as defined by text/template and html/template.
-- time Package time provides functionality for measuring and displaying time.
-    - tzdata Package tzdata provides an embedded copy of the timezone database.
-- unicode Package unicode provides data and functions to test some properties of Unicode code points.
-    - utf16 Package utf16 implements encoding and decoding of UTF-16 sequences.
-    - utf8 Package utf8 implements functions and constants to support text encoded in UTF-8.
-- unique Package unique provides facilities for canonicalizing ("interning") comparable values.
-- unsafe Package unsafe contains operations that step around the type safety of Go programs.
-- weak Package weak provides ways to safely reference memory weakly, that is, without preventing its reclamation.
+- [time](./standard/time.md "时间相关") 时间相关
+    - [tzdata](./standard/tzdata.md "时区数据相关") 时区数据相关
+- [unicode](./standard/unicode.md "Unicode相关") Unicode相关
+    - [utf16](./standard/utf16.md "UTF16相关") UTF16相关
+    - [utf8](./standard/utf8.md "UTF-8相关") UTF-8相关
+- [unique](./standard/unique.md "唯一相关") 唯一相关
+- [unsafe](./standard/unsafe.md "unsafe 相关") unsafe 相关
+- [weak](./standard/weak.md "弱引用相关") 弱引用相关
 
 
 ## 第三方库
